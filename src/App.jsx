@@ -194,6 +194,7 @@ function App() {
                 <Col span={6} className="input-wrapper">
                   <Typography.Text type="secondary">КД СОП</Typography.Text>
                   <Input
+                  allowClear
                     value={enemyKd}
                     onChange={(e) => setEnemyKd(e.target.value)}
                   />
